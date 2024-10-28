@@ -1,0 +1,47 @@
+<!-- Definição do documento HTML -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Título da página -->
+    <title>Agenda de Contatos</title>
+    <!-- Link para folha de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Título da página -->
+        <h1>Agenda <br> de Contatos</h1>
+
+        <!-- Tabela de contatos -->
+        <table id="tabela-contatos">
+            <!-- Cabeçalho da tabela -->
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <!-- Corpo da tabela -->
+            <tbody id="corpo-tabela">
+            </tbody>
+        </table>
+
+        <!-- Formulário para cadastrar contatos -->
+        <form id="form-contato">
+            <!-- Campo para nome do contato -->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br><br>
+            <!-- Campo para telefone do contato -->
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone"><br><br>
+            <!-- Botão para cadastrar contato -->
+            <button id="cadastrar">Cadastrar</button>
+        </form>
+    </div>
+    <!-- Link para script JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

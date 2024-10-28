@@ -1,0 +1,54 @@
+/* Definição da fonte para o documento */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para a tabela */
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+/* Estilos para cabeçalho e células da tabela */
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilo para cabeçalho da tabela */
+th {
+    background-color: #f0f0f0;
+}
+
+h1 {
+    padding: 20px;
+}
+
+form {
+    padding: 20px;
+}
+
+/* Margem para o formulário */
+#form-contato {
+    margin-top: 20px;
+}
+
+/* Container para centralizar conteudo */
+.container {
+    display: flex;
+    /* Usa Flexbox para facilitar o alinhamento */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    height: 100vh;
+    /* Ocupar 100% da altura da viewport */
+    width: 100vw;
+    /* Ocupar 100% da largura da viewport */
+    padding: 20px;
+    /* Adiciona algum preenchimento, se necessário */
+    box-sizing: border-box;
+    /* Inclui padding na largura e altura total */
+}
